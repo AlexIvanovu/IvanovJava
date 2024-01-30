@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Exercise2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String referenceVariable = "Вячеслав";
+        System.out.println("Введите имя: ");
+        String variableBeingTested = scan.nextLine();
+        if (variableBeingTested.equals(referenceVariable)){
+            System.out.println("Привет, Вячеслав!");
+        } else {
+            System.out.println("Нет такого имени");
+        }
+    }
+}
+
